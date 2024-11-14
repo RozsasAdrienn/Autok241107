@@ -34,6 +34,8 @@ nav>a{
 #bal{
     grid-area: bt;
     margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #jobb{

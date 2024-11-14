@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+#jobb>img {
+    width: 100%;
+    height: auto;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+h1{
+    color: rgb(10,130,95);
+}
+header{
+    grid-area: h;
+}
+
+nav{
+    grid-area: n;
+    background-color: rgb(10,130,95);
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+nav>a{
+    color: rgb(116,201,187);
+    text-decoration: none;
+    margin: 10px;
+}
+
+#bal{
+    grid-area: bt;
+    margin-left: 25px;
+}
+
+#jobb{
+    grid-area: jt;
+    display: block;
+    margin-right: 25px;
+}
+
+footer{
+    grid-area: f;
+    color: rgb(10,130,95);
+    text-align: center;
+
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'h h'
+    'n n'
+    'bt jt'
+    'f f'
+    ;
+}
